@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3387" started-at="2014-09-13T06:35:42Z" finished-at="2014-09-13T06:35:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3387" started-at="2014-09-13T06:35:42Z" finished-at="2014-09-13T06:35:46Z">
+      <class name="com.ubique.test.OpeningPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ubique.test.OpeningPage@6ddb6b07]" name="setUp" is-config="true" duration-ms="3371" started-at="2014-09-13T12:05:42Z" finished-at="2014-09-13T12:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Mo()[pri:0, instance:com.ubique.test.OpeningPage@6ddb6b07]" name="Mo" duration-ms="4" started-at="2014-09-13T12:05:46Z" finished-at="2014-09-13T12:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mo -->
+      </class> <!-- com.ubique.test.OpeningPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

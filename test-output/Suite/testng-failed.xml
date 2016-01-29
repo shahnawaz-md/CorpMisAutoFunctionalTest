@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Grouping(failed)">
+    <groups>
+      <run>
+        <include name="company"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testng.selenium.com.ubique.SanityTesting">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="companyPage"/>
+        </methods>
+      </class> <!-- testng.selenium.com.ubique.SanityTesting -->
+    </classes>
+  </test> <!-- Grouping(failed) -->
+</suite> <!-- Failed suite [Suite] -->

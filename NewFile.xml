@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+
+	<test name="Grouping">
+		<groups>
+			<run>
+				<include name="company" />
+				
+			</run>
+		</groups>
+		<classes>
+       <class name="testng.selenium.com.ubique.SanityTesting" />
+    </classes>
+	</test>
+
+</suite>
